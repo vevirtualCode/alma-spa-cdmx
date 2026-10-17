@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<!-- BASE:START (managed by Coding Agent — do not edit) -->
+<base href="/alma-spa-cdmx/">
+<!-- BASE:END -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+
+<!-- SEO Meta Tags -->
+<title>Alma Spa &amp; Wellness | Spa premium en Roma Norte, CDMX</title>
+<meta name="description" content="Landing page en español para Alma Spa &amp; Wellness, un spa premium en Roma Norte, CDMX, con servicios, promociones, galería, testimonios, ubicación y reserva por WhatsApp." />
+<meta property="og:title" content="Alma Spa &amp; Wellness | Spa premium en Roma Norte, CDMX" />
+<meta property="og:description" content="Landing page en español para Alma Spa &amp; Wellness, un spa premium en Roma Norte, CDMX, con servicios, promociones, galería, testimonios, ubicación y reserva por WhatsApp." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Alma Spa &amp; Wellness | Spa premium en Roma Norte, CDMX" />
+<meta name="twitter:description" content="Landing page en español para Alma Spa &amp; Wellness, un spa premium en Roma Norte, CDMX, con servicios, promociones, galería, testimonios, ubicación y reserva por WhatsApp." />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-mvcxgjg6-hb82u";
+  var SITEK="";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  function siteTok(){try{return SITEK?localStorage.getItem(SITEK):null;}catch(e){return null;}}
+  var u=new URL(location.href);var found=null;var changed=false;
+  var PINP=true;
+  if(!PINP){try{localStorage.removeItem('lp_pin_'+slug);if(SITEK)localStorage.removeItem(SITEK);}catch(e){}}
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{if(PINP||p!=='pin_access_token'){localStorage.setItem(map[p]+slug,v);if(SITEK&&p==='pin_access_token')localStorage.setItem(SITEK,v);}}catch(e){}if(p==='pin_access_token'){try{sessionStorage.setItem('lp_fresh_'+slug,'1');}catch(e){}}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug)||siteTok();if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug)||siteTok();}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://ai.vevirtual.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=8259');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='ZaUsxJTx2';
+  var apiBase='https://ai.vevirtual.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    var phone=findPhone();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,phone:phone||'',amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var sidP=urlParams.get('session_id');
+      if(sidP){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidP})}).catch(function(){});}catch(e){}}
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<script data-cart>
+(function(){
+  var slug='ZaUsxJTx2';
+  var apiBase='https://ai.vevirtual.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findCartEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realCart=function(arg){
+    var items, email='', customerName='', successUrl, cancelUrl, currency;
+    if(Array.isArray(arg)){items=arg;}
+    else if(arg&&typeof arg==='object'){
+      items=arg.items;email=arg.email||'';customerName=arg.name||arg.customerName||'';
+      successUrl=arg.successUrl;cancelUrl=arg.cancelUrl;currency=arg.currency;
+    }
+    if(!Array.isArray(items)||items.length===0){alert('No items in cart.');return Promise.reject('no_items');}
+    var cleanItems=[];var totalCents=0;
+    for(var i=0;i<items.length;i++){
+      var it=items[i];if(!it||typeof it!=='object'){alert('Invalid item at position '+i);return Promise.reject('bad_item');}
+      var nm=typeof it.name==='string'?it.name.trim():'';
+      if(!nm){alert('Item '+(i+1)+' is missing a name.');return Promise.reject('no_name');}
+      var amt=typeof it.amountCents==='number'?it.amountCents:(typeof it.amount==='number'?Math.round(it.amount*100):NaN);
+      if(!isFinite(amt)||amt<1){alert('Item "'+nm+'" needs a valid amount in cents.');return Promise.reject('bad_amount');}
+      var qty=(typeof it.quantity==='number'&&it.quantity>0)?Math.floor(it.quantity):1;
+      cleanItems.push({name:nm,description:it.description||'',amountCents:amt,quantity:qty});
+      totalCents+=amt*qty;
+    }
+    if(totalCents<50){alert('Cart total must be at least $0.50');return Promise.reject('total_too_low');}
+    if(!email)email=findCartEmail();
+    if(!customerName)customerName=findCartName();
+    var cartPhone=findCartPhone();
+    if(!email){var p=window.prompt('Enter your email for the receipt:','');if(p&&p.indexOf('@')>-1){email=p.trim();}else{alert('An email address is required to complete checkout.');return Promise.reject('no_email');}}
+    var successBase=window.location.href.split('?')[0];
+    var body={email:email,name:customerName,items:cleanItems,locale:(document.documentElement.lang||navigator.language||'en')};
+    if(currency)body.currency=currency;
+    if(cartPhone)body.phone=cartPhone;
+    body.successUrl=successUrl||(successBase+'?cart=success&email='+encodeURIComponent(email)+'&session_id={CHECKOUT_SESSION_ID}');
+    body.cancelUrl=cancelUrl||(successBase+'?cart=cancelled');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/cart/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(body)
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process checkout');throw new Error(d.error);}
+    });
+  };
+  try{Object.defineProperty(window,'__processCart',{value:__realCart,writable:false,configurable:false});}catch(e){window.__processCart=__realCart;}
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('cart')==='success'){
+      var sidC=urlParams.get('session_id');
+      if(sidC){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidC})}).catch(function(){});}catch(e){}}
+      if(document.getElementById('payment-success-overlay')||document.getElementById('donation-success-overlay')||document.getElementById('cart-success-overlay'))return;
+      var overlay=document.createElement('div');overlay.id='cart-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||'Thank you for your order.';
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Order Confirmed!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-cart-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var cBtn=document.getElementById('lp-cart-success-btn');
+      if(cBtn){cBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+  <!-- ============================================================================ -->
+  <!-- NAVBAR: Navegación fija para recorrer la página                               -->
+  <!-- Notes: Enlaces ancla a las secciones visibles de esta misma página           -->
+  <!-- ============================================================================ -->
+  <nav data-section="navbar" class="glass-nav sticky top-0 z-50">
+    <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 md:px-8 lg:px-12">
+      <div class="flex items-center justify-between gap-4">
+        <a href="#inicio" class="group flex items-center gap-3">
+          <span class="grid h-11 w-11 place-items-center rounded-full bg-[#8A9A7B] text-white soft-shadow">
+            <span class="serif-title text-2xl leading-none">A</span>
+          </span>
+          <div>
+            <p class="serif-title text-xl font-semibold tracking-wide">Alma Spa &amp; Wellness</p>
+            <p class="text-xs tracking-[0.24em] text-[#6e675e] uppercase">Roma Norte • CDMX</p>
+          </div>
+        </a>
+        <div class="hidden items-center gap-7 md:flex text-sm font-medium text-[#4a443d]">
+          <a href="#sobre" class="hover:text-[#8A9A7B] transition">Sobre nosotros</a>
+          <a href="#servicios" class="hover:text-[#8A9A7B] transition">Servicios</a>
+          <a href="#paquetes" class="hover:text-[#8A9A7B] transition">Paquetes</a>
+          <a href="#galeria" class="hover:text-[#8A9A7B] transition">Galería</a>
+          <a href="#ubicacion" class="hover:text-[#8A9A7B] transition">Ubicación</a>
+        </div>
+        <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Alma%20Spa"
+           class="hidden rounded-full btn-whatsapp px-5 py-3 text-sm font-semibold text-white shadow-lg transition md:inline-flex">
+          Reserva por WhatsApp
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ============================================================================ -->
+    <!-- HERO: Portada principal a pantalla completa                                   -->
+    <!-- Notes: La imagen fija y el texto breve ayudan a sentir calma y premium       -->
+    <!-- ============================================================================ -->
+    <section id="inicio" data-section="hero" class="relative min-h-[100svh] overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          class="hero-img h-full w-full"
+          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80"
+          alt="Velas, piedras calientes y ambiente relajante de spa"
+        />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#3E3A35]/78 via-[#3E3A35]/38 to-[#3E3A35]/15"></div>
+      </div>
+      <div class="relative mx-auto flex min-h-[100svh] max-w-7xl items-end px-4 py-10 sm:px-6 md:px-8 lg:px-12">
+        <div class="max-w-3xl pb-8 pt-20 text-white md:pb-14">
+          <div data-aos="fade-up" class="mb-6 inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm backdrop-blur-sm">
+            <span class="h-2.5 w-2.5 rounded-full bg-[#C9A96E]"></span>
+            <span>Roma Norte, Ciudad de México</span>
+          </div>
+          <h1 class="serif-title text-5xl font-semibold leading-[0.95] sm:text-6xl lg:text-8xl">
+            Tu refugio de calma en el corazón de la CDMX
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="100" class="mt-6 max-w-2xl text-base leading-8 text-white/88 sm:text-lg">
+            Restaura tu energía con rituales de spa diseñados para desacelerar el cuerpo, despejar la mente y consentir cada detalle con una experiencia premium.
+          </p>
+          <div data-aos="fade-up" data-aos-delay="200" class="mt-8 flex flex-col gap-4 sm:flex-row">
+            <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Alma%20Spa"
+               class="inline-flex items-center justify-center rounded-full btn-whatsapp px-7 py-4 text-base font-semibold text-white transition">
+              Reserva por WhatsApp
+            </a>
+            <a href="#servicios" class="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 px-7 py-4 text-base font-semibold text-white backdrop-blur-sm transition hover:bg-white/15">
+              Ver servicios
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- SOBRE NOSOTROS: Historia breve y propuesta de valor                          -->
+    <!-- Notes: Sustituye este texto si deseas cambiar la personalidad de la marca    -->
+    <!-- ============================================================================ -->
+    <section id="sobre" data-section="about" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-8 lg:px-12 lg:py-24">
+      <div class="grid items-center gap-10 lg:grid-cols-2">
+        <div data-aos="fade-right" class="order-2 lg:order-1">
+          <p class="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-[#8A9A7B]">Sobre nosotros</p>
+          <h2 class="serif-title text-4xl font-semibold leading-tight sm:text-5xl">
+            Un espacio sereno, creado para que vuelvas a ti
+          </h2>
+          <p class="mt-6 text-lg leading-8 text-[#5b544c]">
+            En Alma Spa &amp; Wellness llevamos más de 8 años acompañando a personas que buscan pausa, cuidado y renovación en un ambiente cálido y elegante. Nuestro equipo está integrado por terapeutas certificados y especialistas en bienestar que trabajan con protocolos precisos y atención personalizada.
+          </p>
+          <p class="mt-4 text-lg leading-8 text-[#5b544c]">
+            Seleccionamos productos orgánicos mexicanos y texturas naturales para ofrecer experiencias que se sienten profundas, limpias y auténticas. Cada sesión está pensada para relajarte sin prisa, con aromas suaves, música delicada y un servicio impecable.
+          </p>
+          <div class="mt-8 grid gap-4 sm:grid-cols-3">
+            <div data-aos="zoom-in" class="section-card rounded-3xl p-5 text-center">
+              <p class="serif-title text-3xl font-semibold text-[#8A9A7B]">8+</p>
+              <p class="mt-1 text-sm text-[#5d564e]">Años de experiencia</p>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="100" class="section-card rounded-3xl p-5 text-center">
+              <p class="serif-title text-3xl font-semibold text-[#8A9A7B]">100%</p>
+              <p class="mt-1 text-sm text-[#5d564e]">Terapeutas certificados</p>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="200" class="section-card rounded-3xl p-5 text-center">
+              <p class="serif-title text-3xl font-semibold text-[#8A9A7B]">MX</p>
+              <p class="mt-1 text-sm text-[#5d564e]">Ingredientes orgánicos</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="order-1 lg:order-2">
+          <img
+            class="about-img h-[420px] w-full rounded-[2rem] soft-shadow"
+            src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1400&q=80"
+            alt="Ambiente elegante de spa con toallas, velas y decoración natural"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- SERVICIOS: Tarjetas con precio y reserva por WhatsApp                         -->
+    <!-- Notes: Cada botón abre WhatsApp con el servicio ya escrito en el mensaje      -->
+    <!-- ============================================================================ -->
+    <section id="servicios" data-section="services" class="bg-white/45 py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
+        <div class="max-w-2xl">
+          <p class="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-[#8A9A7B]">Servicios</p>
+          <h2 class="serif-title text-4xl font-semibold leading-tight sm:text-5xl">Tratamientos pensados para relajar, renovar y consentir</h2>
+          <p class="mt-5 text-lg leading-8 text-[#5b544c]">Selecciona tu experiencia ideal y reserva en un mensaje. Todos los tiempos y precios están diseñados para una visita tranquila, sin prisas.</p>
+        </div>
+
+        <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          <!-- Card 1 -->
+          <article data-aos="fade-up" class="overflow-hidden rounded-[1.75rem] section-card">
+            <img class="service-img h-52 w-full" src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1200&q=80" alt="Masaje relajante en una cabina de spa">
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="serif-title text-3xl font-semibold">Masaje relajante</h3>
+                <p class="text-lg font-semibold text-[#8A9A7B]">$950</p>
+              </div>
+              <p class="mt-2 text-sm uppercase tracking-[0.2em] text-[#7a7268]">60 min</p>
+              <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20Masaje%20relajante%20de%2060%20min%20en%20Alma%20Spa."
+                 class="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#3E3A35] px-5 py-3 font-semibold text-white transition hover:bg-[#2f2c28]">
+                Reservar
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article data-aos="fade-up" data-aos-delay="100" class="overflow-hidden rounded-[1.75rem] section-card">
+            <img class="service-img h-52 w-full" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80" alt="Masaje de piedras calientes con velas y ambiente cálido">
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="serif-title text-3xl font-semibold">Piedras calientes</h3>
+                <p class="text-lg font-semibold text-[#8A9A7B]">$1,250</p>
+              </div>
+              <p class="mt-2 text-sm uppercase tracking-[0.2em] text-[#7a7268]">75 min</p>
+              <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20Masaje%20de%20piedras%20calientes%20de%2075%20min%20en%20Alma%20Spa."
+                 class="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#3E3A35] px-5 py-3 font-semibold text-white transition hover:bg-[#2f2c28]">
+                Reservar
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article data-aos="fade-up" data-aos-delay="200" class="overflow-hidden rounded-[1.75rem] section-card">
+            <img class="service-img h-52 w-full" src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=80" alt="Facial hidratante en un spa premium">
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="serif-title text-3xl font-semibold">Facial hidratante</h3>
+                <p class="text-lg font-semibold text-[#8A9A7B]">$890</p>
+              </div>
+              <p class="mt-2 text-sm uppercase tracking-[0.2em] text-[#7a7268]">50 min</p>
+              <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20Facial%20hidratante%20de%2050%20min%20en%20Alma%20Spa."
+                 class="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#3E3A35] px-5 py-3 font-semibold text-white transition hover:bg-[#2f2c28]">
+                Reservar
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article data-aos="fade-up" class="overflow-hidden rounded-[1.75rem] section-card">
+            <img class="service-img h-52 w-full" src="https://images.unsplash.com/photo-1514222134-b57cbb8ce073?auto=format&fit=crop&w=1200&q=80" alt="Ritual de temazcal y bienestar">
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="serif-title text-3xl font-semibold">Ritual de temazcal</h3>
+                <p class="text-lg font-semibold text-[#8A9A7B]">$1,400</p>
+              </div>
+              <p class="mt-2 text-sm uppercase tracking-[0.2em] text-[#7a7268]">90 min</p>
+              <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20Ritual%20de%20temazcal%20de%2090%20min%20en%20Alma%20Spa."
+                 class="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#3E3A35] px-5 py-3 font-semibold text-white transition hover:bg-[#2f2c28]">
+                Reservar
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article data-aos="fade-up" data-aos-delay="100" class="overflow-hidden rounded-[1.75rem] section-card">
+            <img class="service-img h-52 w-full" src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1200&q=80" alt="Experiencia de spa en pareja con velas">
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="serif-title text-3xl font-semibold">Paquete en pareja</h3>
+                <p class="text-lg font-semibold text-[#8A9A7B]">$2,600</p>
+              </div>
+              <p class="mt-2 text-sm uppercase tracking-[0.2em] text-[#7a7268]">120 min</p>
+              <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20Paquete%20en%20pareja%20de%20120%20min%20en%20Alma%20Spa."
+                 class="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#3E3A35] px-5 py-3 font-semibold text-white transition hover:bg-[#2f2c28]">
+                Reservar
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article data-aos="fade-up" data-aos-delay="200" class="overflow-hidden rounded-[1.75rem] section-card">
+            <img class="service-img h-52 w-full" src="https://images.unsplash.com/photo-1556228578-9f0b1f0f5d5f?auto=format&fit=crop&w=1200&q=80" alt="Exfoliación corporal con ingredientes naturales">
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="serif-title text-3xl font-semibold">Exfoliación corporal</h3>
+                <p class="text-lg font-semibold text-[#8A9A7B]">$780</p>
+              </div>
+              <p class="mt-2 text-sm uppercase tracking-[0.2em] text-[#7a7268]">45 min</p>
+              <p class="mt-1 text-sm text-[#7a7268]">Con café de Veracruz</p>
+              <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20Exfoliaci%C3%B3n%20corporal%20con%20caf%C3%A9%20de%20Veracruz%20de%2045%20min%20en%20Alma%20Spa."
+                 class="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#3E3A35] px-5 py-3 font-semibold text-white transition hover:bg-[#2f2c28]">
+                Reservar
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- PAQUETES: Promoción destacada con descuento entre semana                      -->
+    <!-- Notes: Bloque visual para resaltar una oferta sin saturar la página          -->
+    <!-- ============================================================================ -->
+    <section id="paquetes" data-section="promotion" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-8 lg:px-12 lg:py-24">
+      <div class="grid items-center gap-8 overflow-hidden rounded-[2rem] bg-[#3E3A35] text-white soft-shadow lg:grid-cols-2">
+        <div data-aos="fade-right" class="p-8 sm:p-10 lg:p-14">
+          <p class="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-[#C9A96E]">Promoción destacada</p>
+          <h2 class="serif-title text-4xl font-semibold leading-tight sm:text-5xl">Día de spa completo</h2>
+          <p class="mt-5 max-w-xl text-lg leading-8 text-white/84">
+            Vive una experiencia integral con masaje, facial y pausa sensorial. Reserva de lunes a viernes y recibe 15% de descuento en este paquete especial.
+          </p>
+          <ul class="mt-7 space-y-3 text-white/88">
+            <li class="flex gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-[#C9A96E]"></span>Atención personalizada en un ambiente íntimo y tranquilo.</li>
+            <li class="flex gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-[#C9A96E]"></span>Ideal para regalarte una pausa profunda entre semana.</li>
+            <li class="flex gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-[#C9A96E]"></span>Consulta disponibilidad por WhatsApp en segundos.</li>
+          </ul>
+          <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20el%20paquete%20D%C3%ADa%20de%20spa%20completo%20con%2015%25%20de%20descuento%20entre%20semana."
+             class="mt-8 inline-flex items-center justify-center rounded-full bg-[#C9A96E] px-7 py-4 font-semibold text-[#3E3A35] transition hover:brightness-95">
+            Quiero esta promoción
+          </a>
+        </div>
+        <div data-aos="fade-left" class="h-full min-h-[360px]">
+          <img
+            class="h-full w-full object-cover"
+            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80"
+            alt="Detalles relajantes de spa con velas y piedras calientes"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- GALERÍA: Seis imágenes grandes para mostrar el ambiente del spa              -->
+    <!-- Notes: Todas las imágenes son reales y se pueden sustituir por fotos propias  -->
+    <!-- ============================================================================ -->
+    <section id="galeria" data-section="gallery" class="bg-white/40 py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div class="max-w-2xl">
+            <p class="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-[#8A9A7B]">Galería</p>
+            <h2 class="serif-title text-4xl font-semibold leading-tight sm:text-5xl">Luz suave, texturas naturales y calma en cada rincón</h2>
+          </div>
+        </div>
+        <div class="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+          <img data-aos="fade-up" class="gallery-img h-72 w-full rounded-[1.5rem] soft-shadow" src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=1200&q=80" alt="Sala de spa con toallas y decoración natural">
+          <img data-aos="fade-up" data-aos-delay="100" class="gallery-img h-72 w-full rounded-[1.5rem] soft-shadow" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Ambiente relajante con plantas y luz cálida">
+          <img data-aos="fade-up" data-aos-delay="200" class="gallery-img h-72 w-full rounded-[1.5rem] soft-shadow" src="https://images.unsplash.com/photo-1513918996710-e6bf8b0d7c9a?auto=format&fit=crop&w=1200&q=80" alt="Velas encendidas en un espacio de bienestar">
+          <img data-aos="fade-up" class="gallery-img h-72 w-full rounded-[1.5rem] soft-shadow" src="https://images.unsplash.com/photo-1544168193-4ccf3b7d0c5c?auto=format&fit=crop&w=1200&q=80" alt="Toallas blancas y ambiente limpio de spa">
+          <img data-aos="fade-up" data-aos-delay="100" class="gallery-img h-72 w-full rounded-[1.5rem] soft-shadow" src="https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?auto=format&fit=crop&w=1200&q=80" alt="Ritual relajante con piedras y aceites">
+          <img data-aos="fade-up" data-aos-delay="200" class="gallery-img h-72 w-full rounded-[1.5rem] soft-shadow" src="https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&w=1200&q=80" alt="Detalle minimalista de bienestar y calma">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- TESTIMONIOS: Opiniones ficticias con estrellas                               -->
+    <!-- Notes: Texto corto para reforzar confianza y sensación de servicio premium   -->
+    <!-- ============================================================================ -->
+    <section data-section="testimonials" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-8 lg:px-12 lg:py-24">
+      <div class="max-w-2xl">
+        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-[#8A9A7B]">Testimonios</p>
+        <h2 class="serif-title text-4xl font-semibold leading-tight sm:text-5xl">Experiencias que invitan a volver</h2>
+      </div>
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        <article data-aos="fade-up" class="section-card rounded-[1.75rem] p-8">
+          <p class="text-[#C9A96E] text-xl" aria-label="5 estrellas">★★★★★</p>
+          <p class="mt-4 leading-8 text-[#5b544c]">“Salí realmente renovada. El lugar se siente íntimo, elegante y muy cuidado. El masaje relajante fue impecable y el trato, de primera.”</p>
+          <p class="mt-6 font-semibold">Mariana G.</p>
+          <p class="text-sm text-[#7c7368]">Clienta frecuente</p>
+        </article>
+        <article data-aos="fade-up" data-aos-delay="100" class="section-card rounded-[1.75rem] p-8">
+          <p class="text-[#C9A96E] text-xl" aria-label="5 estrellas">★★★★★</p>
+          <p class="mt-4 leading-8 text-[#5b544c]">“Reservé el paquete en pareja y fue una experiencia preciosa. Todo el ambiente está pensado para desconectar del ruido de la ciudad.”</p>
+          <p class="mt-6 font-semibold">Daniel R.</p>
+          <p class="text-sm text-[#7c7368]">Cliente de fin de semana</p>
+        </article>
+        <article data-aos="fade-up" data-aos-delay="200" class="section-card rounded-[1.75rem] p-8">
+          <p class="text-[#C9A96E] text-xl" aria-label="5 estrellas">★★★★★</p>
+          <p class="mt-4 leading-8 text-[#5b544c]">“Me encantó la atención y la sensación de calma desde que entras. Los productos huelen delicioso y el facial dejó mi piel luminosa.”</p>
+          <p class="mt-6 font-semibold">Sofía L.</p>
+          <p class="text-sm text-[#7c7368]">Visitante nueva</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- UBICACIÓN Y HORARIOS: Datos de contacto, horarios y mapa                     -->
+    <!-- Notes: Dirección ficticia en Roma Norte; el teléfono también es ficticio     -->
+    <!-- ============================================================================ -->
+    <section id="ubicacion" data-section="location" class="bg-white/45 py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
+        <div class="grid gap-8 lg:grid-cols-2">
+          <div data-aos="fade-right" class="section-card rounded-[2rem] p-8 sm:p-10">
+            <p class="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-[#8A9A7B]">Ubicación y horarios</p>
+            <h2 class="serif-title text-4xl font-semibold leading-tight sm:text-5xl">Ven a visitarnos en Roma Norte</h2>
+            <p class="mt-5 text-lg leading-8 text-[#5b544c]">
+              Calle Durango 245, Roma Norte, CDMX. Te recibimos con cita previa para brindarte una experiencia cómoda, tranquila y puntual.
+            </p>
+            <div class="mt-8 grid gap-5 sm:grid-cols-2">
+              <div>
+                <p class="font-semibold text-[#3E3A35]">Horario</p>
+                <ul class="mt-3 space-y-2 text-[#5f584f]">
+                  <li>Lun–Vie: 9:00–21:00</li>
+                  <li>Sáb: 9:00–20:00</li>
+                  <li>Dom: 10:00–18:00</li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-semibold text-[#3E3A35]">Contacto</p>
+                <ul class="mt-3 space-y-2 text-[#5f584f]">
+                  <li>Teléfono: <a class="hover:text-[#8A9A7B]" href="tel:+525500000000">+52 55 0000 0000</a></li>
+                  <li>WhatsApp: <a class="hover:text-[#8A9A7B]" href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Alma%20Spa">Enviar mensaje</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="overflow-hidden rounded-[2rem] soft-shadow">
+            <iframe
+              title="Mapa de Roma Norte, Ciudad de México"
+              class="h-[460px] w-full"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Roma%20Norte%2C%20Ciudad%20de%20M%C3%A9xico&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- CTA FINAL: Cierre emocional con botón de reserva                              -->
+    <!-- Notes: Repite la llamada principal para quienes llegan al final              -->
+    <!-- ============================================================================ -->
+    <section id="cta" data-section="cta" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-8 lg:px-12 lg:py-24">
+      <div class="rounded-[2rem] bg-[#8A9A7B] px-8 py-12 text-center text-white soft-shadow sm:px-10 lg:px-16">
+        <p class="text-sm font-semibold uppercase tracking-[0.28em] text-white/80">Tu momento</p>
+        <h2 class="serif-title mt-4 text-4xl font-semibold leading-tight sm:text-5xl">Regálate un momento para ti</h2>
+        <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/88">
+          Haz una pausa, respira profundo y deja que nuestro equipo se encargue del resto. Reserva tu cita por WhatsApp y vive una experiencia diseñada para volver a la calma.
+        </p>
+        <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Alma%20Spa"
+           class="mt-8 inline-flex items-center justify-center rounded-full bg-white px-8 py-4 font-semibold text-[#3E3A35] transition hover:bg-[#f7f3eb]">
+          Reserva por WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================================ -->
+  <!-- FOOTER: Redes sociales y aviso de privacidad                                 -->
+  <!-- Notes: Iconos SVG simples para que la página no dependa de librerías externas -->
+  <!-- ============================================================================ -->
+  <footer data-section="footer" class="border-t border-[#3E3A35]/10 bg-[#F5F0E8]">
+    <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 md:px-8 lg:px-12">
+      <div class="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+        <div>
+          <p class="serif-title text-2xl font-semibold">Alma Spa &amp; Wellness</p>
+          <p class="mt-2 max-w-xl text-sm leading-7 text-[#645d54]">
+            Calle Durango 245, Roma Norte, CDMX. Un refugio premium para descanso, cuidado personal y bienestar.
+          </p>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="https://instagram.com" aria-label="Instagram" class="grid h-11 w-11 place-items-center rounded-full bg-white text-[#3E3A35] soft-shadow transition hover:text-[#8A9A7B]">
+            <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm11 1.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+          </a>
+          <a href="https://facebook.com" aria-label="Facebook" class="grid h-11 w-11 place-items-center rounded-full bg-white text-[#3E3A35] soft-shadow transition hover:text-[#8A9A7B]">
+            <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current" aria-hidden="true"><path d="M14 9.2V8.1c0-.6.4-.9 1-.9h1.5V4h-2.2C11.7 4 10 5.6 10 8.2V9H8v3h2v8h4v-8h2.6l.4-3H14Z"/></svg>
+          </a>
+          <a href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Alma%20Spa" aria-label="WhatsApp" class="grid h-11 w-11 place-items-center rounded-full bg-white text-[#3E3A35] soft-shadow transition hover:text-[#8A9A7B]">
+            <svg viewBox="0 0 32 32" class="h-5 w-5 fill-current" aria-hidden="true"><path d="M19.11 17.44c-.26-.13-1.53-.75-1.77-.84-.24-.09-.42-.13-.6.13-.18.26-.69.84-.84 1.02-.15.18-.31.2-.58.07-.26-.13-1.11-.41-2.11-1.31-.78-.7-1.3-1.56-1.45-1.82-.15-.26-.02-.41.11-.54.11-.11.26-.29.39-.44.13-.15.18-.26.26-.44.09-.18.04-.33-.02-.46-.07-.13-.6-1.44-.82-1.98-.22-.53-.45-.46-.6-.46h-.51c-.18 0-.46.07-.7.33-.24.26-.93.9-.93 2.2s.95 2.55 1.08 2.73c.13.18 1.87 2.86 4.52 4.01.63.27 1.12.43 1.5.55.63.2 1.2.17 1.65.1.5-.08 1.53-.62 1.75-1.23.22-.6.22-1.11.15-1.23-.06-.11-.24-.18-.5-.31ZM16.03 5C10.46 5 6 9.45 6 15c0 1.95.57 3.84 1.64 5.45L6 27l6.72-1.57A9.95 9.95 0 0 0 16 25c5.55 0 10-4.45 10-10s-4.45-10-9.97-10Zm0 18.2c-1.62 0-3.2-.43-4.58-1.24l-.33-.19-3.99.93.95-3.89-.22-.35A8.18 8.18 0 1 1 16.03 23.2Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="mt-8 flex flex-col gap-3 border-t border-[#3E3A35]/10 pt-6 text-sm text-[#6a635a] sm:flex-row sm:items-center sm:justify-between">
+        <p>© 2026 Alma Spa &amp; Wellness. Todos los derechos reservados.</p>
+        <a href="#" class="hover:text-[#8A9A7B]">Aviso de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante fijo -->
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/525512345678?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Alma%20Spa"
+    aria-label="Abrir WhatsApp para agendar una cita"
+    title="WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M19.11 17.44c-.26-.13-1.53-.75-1.77-.84-.24-.09-.42-.13-.6.13-.18.26-.69.84-.84 1.02-.15.18-.31.2-.58.07-.26-.13-1.11-.41-2.11-1.31-.78-.7-1.3-1.56-1.45-1.82-.15-.26-.02-.41.11-.54.11-.11.26-.29.39-.44.13-.15.18-.26.26-.44.09-.18.04-.33-.02-.46-.07-.13-.6-1.44-.82-1.98-.22-.53-.45-.46-.6-.46h-.51c-.18 0-.46.07-.7.33-.24.26-.93.9-.93 2.2s.95 2.55 1.08 2.73c.13.18 1.87 2.86 4.52 4.01.63.27 1.12.43 1.5.55.63.2 1.2.17 1.65.1.5-.08 1.53-.62 1.75-1.23.22-.6.22-1.11.15-1.23-.06-.11-.24-.18-.5-.31ZM16.03 5C10.46 5 6 9.45 6 15c0 1.95.57 3.84 1.64 5.45L6 27l6.72-1.57A9.95 9.95 0 0 0 16 25c5.55 0 10-4.45 10-10s-4.45-10-9.97-10Zm0 18.2c-1.62 0-3.2-.43-4.58-1.24l-.33-.19-3.99.93.95-3.89-.22-.35A8.18 8.18 0 1 1 16.03 23.2Z"/>
+    </svg>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    // ===== AOS INIT =====
+    // Purpose: Smooth scroll reveals for section cards and imagery
+    // Triggers: Once on page load
+    AOS.init({ once: true, duration: 700, offset: 80 });
+  </script>
+</body>
+</html>
