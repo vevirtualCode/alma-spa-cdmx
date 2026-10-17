@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vevirtualCode.github.io/alma-spa-cdmx/sitemap.xml
